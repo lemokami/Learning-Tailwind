@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Recipe Hub</title>
   </head>
-  <body class="text-gray-700">
+  <body class="text-gray-600">
     <div>
       <!--Container for all the content-->
       <div>
@@ -15,27 +15,29 @@
             <h1
               class="font-bold font-body uppercase pb-3 border-b border-gray-300"
             >
-              <a href="/">Recipe Hub</a>
+              <a href="/" class="text-sm md:text-lg">Recipe Hub</a>
             </h1>
           </div>
           <ul>
             <li>
-              <a href="/"><span>Home</span></a>
+              <a href="/" class="font-semibold text-gray-800"
+                ><span>Home</span></a
+              >
             </li>
             <li>
-              <a href="#"><span>About</span></a>
+              <a href="#" class="font-semibold"><span>About</span></a>
             </li>
             <li>
-              <a href="#"><span>Contact</span></a>
+              <a href="#" class="font-semibold"><span>Contact</span></a>
             </li>
           </ul>
         </nav>
       </div>
       <!--End of Nav-->
       <main class="px-16 py-6">
-        <div>
-          <a href="#" class="font-semibold">Login</a>
-          <a href="#" class="font-semibold">SignUp</a>
+        <div class="flex justify-center lg:justify-end">
+          <a href="#" class="text-primary">Login</a>
+          <a href="#" class="text-primary ml-4">SignUp</a>
         </div>
 
         <header class="text-gray-900 text-6xl font-bold">
@@ -75,7 +77,9 @@
             </div>
           </div>
           <div>
-            <div>load more</div>
+            <div class="flex justify-center items-center">
+              <a href="#">load more</a>
+            </div>
           </div>
         </div>
       </main>
