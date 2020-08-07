@@ -1,2 +1,5 @@
 node_modules
 tailwind.config-default.js
+
+# Local Netlify folder
+.netlify
