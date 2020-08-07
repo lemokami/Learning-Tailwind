@@ -18147,6 +18147,56 @@ video {
           animation: bounce 1s infinite;
 }
 
+.card {
+  margin-top: 0.75rem;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.badge {
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 0;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.log-btn {
+  --text-opacity: 1;
+  color: #e63946;
+  color: rgba(230, 57, 70, var(--text-opacity));
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 75ms;
+  cursor: pointer;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;

@@ -3,3 +3,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+  @apply mt-3 bg-white rounded shadow-md overflow-hidden relative cursor-pointer;
+}
+
+.badge {
+  @apply bg-white p-2 text-sm text-gray-700 rounded absolute top-0 ml-2 mt-2;
+}
+
+.btn {
+  @apply p-2 rounded-full text-sm cursor-pointer;
+}
+
+.log-btn {
+  @apply text-primary font-semibold btn  transition ease-out duration-75 cursor-pointer;
+}
